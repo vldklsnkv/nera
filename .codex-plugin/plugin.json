@@ -1,0 +1,54 @@
+{
+  "name": "social-web-assistant",
+  "version": "0.1.0+codex.20260829171343",
+  "description": "A personal web concierge for finding, comparing, negotiating, booking, and following through.",
+  "author": {
+    "name": "Vlad Kalashnikov"
+  },
+  "license": "MIT",
+  "keywords": [
+    "instagram",
+    "whatsapp",
+    "telegram",
+    "threads",
+    "wolt",
+    "shopping",
+    "groceries",
+    "unison",
+    "appointments",
+    "concierge",
+    "booking",
+    "negotiation",
+    "price-comparison",
+    "research",
+    "messaging"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Nera",
+    "shortDescription": "Find, compare, negotiate, book, and follow through.",
+    "longDescription": "Nera is a personal web concierge that searches official sites, Wolt Georgia, authenticated services, and relevant Telegram communities; compares real total prices and availability; asks focused questions; prepares carts and bookings; negotiates within user-approved limits; and monitors outcomes. Orders, payments, bookings, public posts, cancellations, and sensitive-data disclosure remain behind exact approval.",
+    "developerName": "Vlad Kalashnikov",
+    "category": "Productivity",
+    "capabilities": [
+      "Authenticated browser research",
+      "Conversation review",
+      "Message drafting",
+      "Confirm-before-send outreach",
+      "Bounded provider negotiation",
+      "Price and availability comparison",
+      "Wolt Georgia product and store search",
+      "Reviewed cart preparation",
+      "Telegram community discovery and Q&A",
+      "Confirm-before-book appointments",
+      "Reply and outcome monitoring"
+    ],
+    "defaultPrompt": [
+      "Find and compare the best options for this task.",
+      "Contact providers, clarify the total price, and report back.",
+      "Prepare the best option and book after my approval."
+    ],
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}
